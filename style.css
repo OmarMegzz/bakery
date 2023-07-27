@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+  height: 100vh;
+}
+.navbar {
+  height: 50px;
+}
+
+.nav-img {
+  width: 30%;
+  float: left;
+}
+
+.nav-img img {
+  width: 40%;
+  padding-left: 80px;
+  padding-top: 15px;
+}
+
+.nav-info {
+  width: 40%;
+  float: right;
+}
+
+.nav-info ul {
+  list-style: none;
+}
+
+.nav-info ul li {
+  float: left;
+  margin: 25px 20px;
+}
+
+.nav-info a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.nav-info a:hover {
+  color: #8e7754;
+}
+
+.home-contant {
+  margin-top: 250px;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+}
+
+.home-contant p,
+h1 {
+  margin: 20px 0px;
+}
+.home-contant .btn2 {
+  color: white;
+  font-size: 17px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 18px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.home-contant .btn2:hover {
+  background-color: #8e7754;
+  color: black;
+}
+
+.home-contant .btn1 {
+  background-color: #8e7754;
+  border: none;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 18px;
+  cursor: pointer;
+}
+.home-contant .btn1:hover {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+/* about */
+#about {
+  height: 100vh;
+  display: flex;
+  margin-top: 10vh;
+}
+.about-img {
+  width: 50%;
+}
+
+.about-img img {
+  width: 80%;
+  padding: 50px 40px;
+  border-radius: 20%;
+}
+
+.about-info {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.about-info h1 {
+  padding-top: 50px;
+}
+
+.about-info ul {
+  padding-top: 50px;
+  text-align: left;
+}
+
+/* our location */
+
+#our-location {
+  height: 100vh;
+  display: flex;
+}
+.ol-img {
+  width: 60%;
+  margin-top: 10vh;
+}
+.ol-info {
+  width: 50%;
+  text-align: center;
+  margin-top: 15vh;
+  margin-right: 10vh;
+  font-size: 16px;
+}
+.ol-img img {
+  width: 80%;
+  padding: 50px 40px;
+  border-radius: 20%;
+}
+
+.ol-info h1 {
+  padding-top: 50px;
+}
+
+.ol-info .p1 {
+  padding-top: 20px;
+}
+
+.ol-info .p2 {
+  padding-top: 30px;
+}
+
+/* our backing */
+
+#our-backing {
+  height: 100vh;
+}
+
+.ob-info {
+  text-align: center;
+  padding-top: 10px;
+}
+.ob {
+  display: flex;
+}
+.ob-card {
+  text-align: center;
+  width: 33%;
+  padding-top: 50px;
+}
+
+.ob-card h1 {
+  padding-top: 50px;
+}
+.ob-info p {
+  padding-top: 30px;
+  font-size: 20px;
+}
+.ob-card h2 {
+  padding-top: 30px;
+}
+.ob-card p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.ob-card img {
+  width: 80%;
+  border-radius: 20%;
+}
+
+
+/* contact */
+.contact {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.contact h2,
+p {
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.contact-info {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+}
+
+.map {
+  width: 50%;
+  height: 300px;
+  background-image: url("/images/contact-details-map.png");
+  background-size: cover;
+  background-position: center center;
+  margin-top: 15vh;
+}
+
+/* about us */
+.about {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+.about h1 {
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+}
+
+.about h2 {
+  text-align: center;
+}
+
+.about-inf {
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+.about ul {
+  padding: 50px;
+  margin: 0 30px;
+  width: 100%;
+}
+
+.about li {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.about li i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+/* about us 2 */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px; /* adjust as needed */
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
